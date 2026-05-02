@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mixilver</title>
+    <link rel="icon" type="image/x-icon" href="avatar.jpg">
+</head>
+<body>
+    <div class="top">
+        <img src="avatar.jpg" class="avatar" alt="Avatar">
+        <h1 class="bioname">Mixilver's Bio</h1>
+        <div class="by-credit">
+            By: <a href="https://vildangil.github.io/">VildanG</a>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="box">
+            <div class="info-row">
+                <h2 class="text1">Name:</h2>
+                <h3 class="text2">Mixilver</h3>
+            </div>
+            
+            <div class="info-row">
+                <h2 class="text1">Age:</h2>
+                <h3 class="text2">24</h3>
+            </div>
+           
+            <div class="info-row">
+                <h2 class="text1">Birthday:</h2>
+                <h3 class="text2">18.03.2002</h3>
+            </div>
+
+            <p class="bio-text">
+                Hello There!
+            </p>
+        </div> 
+
+        <div class="box">
+            <div class="info-row">
+                <h2 class="text1">Status:</h2>
+                <h3 class="text2">Online</h3>
+            </div>
+            <div class="info-row">
+                <h2 class="text1">From:</h2>
+                <h3 class="text2">Russia</h3>
+            </div>
+            <div class="info-row">
+                <h2 class="text1">Telegram:</h2>
+                <h3 class="text2"><a href="https://t.me/Mixilver">@Mixilver</a></h3>
+            </div>
+            <div class="info-row">
+                <h2 class="text1">Github:</h2>
+                <h3 class="text2"><a href="https://github.com/Mixilver">Mixilver</a></h3>
+            </div>
+        </div> 
+
+        <div class="box">
+            <div class="info-row">
+                <h2 class="text1">Devices:</h2>
+                <h3 class="text2">(Working):<br>
+                    Tecno SPARK 20 Pro (Main)<br>
+                    Redmi 13C<br>
+                    Xiaomi Mi A3<br>
+                    Samsung Galaxy A20<br>
+                    Asus ZenFone Go ZB500KL<br>
+                    LG X View K500DS<br>
+                    Samsung Galaxy Tab A 10.1 LTE<br>
+                    MegaFone Login 2<br><br>
+                    (Not Working):<br>
+                    Apple iPhone SE - Dead battery<br>
+                    Samsung Galaxy A03 - Bad display<br>
+                    Samsung Galaxy J6+  - Broken display<br>
+                    Xiaomi Redmi 4A - Bad display and dead battery<br>
+                    Asus ZenFone 2 ZE551ML - Dead battery
+                </h3>
+            </div>
+            <div class="info-row">
+                <h2 class="text1">Releases (TG):</h2>
+                <h3 class="text2"><a href="https://t.me/roms_by_mixilver">Click</a></h3>
+            </div>
+        </div> 
+    </div>
+</body>
+
+<style>
+    body {
+        background-color: #221313;
+        margin: 0;
+        padding: 15px;
+        font-family: 'pixel', sans-serif;
+    }
+
+    .by-credit {
+        position: static;
+        transform: none;
+        left: auto;
+        top: auto;
+        margin-right: 20px; 
+        color: #f5caca;
+    }
+
+    .BioLink{
+        color: #694040;
+    }
+
+    @font-face {
+        font-family: pixel;
+        src: url(font.ttf);
+    }
+
+    h1, h2, h3, p {
+        font-family: pixel;
+        color: #f5caca;
+        margin: 0;
+    }
+
+    a {
+       color: #c26565; 
+       text-decoration: none;
+    }
+
+    .top {
+        background-color: #462929;
+        position: fixed; 
+        top: 15px;
+        left: 15px;
+        right: 15px;
+        height: 100px;
+        border-radius: 50px;
+        display: flex;
+        align-items: center;
+        padding: 0 15px; 
+        z-index: 1000;
+        box-sizing: border-box;
+        justify-content: space-between;
+    }
+
+    .avatar {
+        width: 85px;
+        height: 85px;
+        border: solid;
+        border-radius: 50px;
+        border-color: #f1baba;
+        border-width: 3px;
+        margin-left: -5px; 
+        margin-right: 20px;
+        padding: 3px;
+        box-sizing: border-box;
+    }
+
+    .bioname {
+        font-size: 22px;
+        line-height: 1.1;
+    }
+
+    .container {
+        margin-top: 130px; 
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .box {
+        background-color: #462929;
+        border-radius: 20px;
+        padding: 25px;
+        min-height: 200px;
+        box-sizing: border-box;
+        flex: 1 1 100%; 
+        display: flex;
+        flex-direction: column; 
+        gap: 15px;
+    }
+
+    .info-row {
+        display: flex;
+        align-items: baseline;
+        gap: 10px;
+    }
+
+    .bio-text {
+        font-size: 1rem;
+        line-height: 1.4;
+        color: #f1baba;
+        margin-top: 10px;
+    }
+
+    @media (min-width: 600px) {
+        .box {
+            flex: 1 1 calc(50% - 10px);
+        }
+    }
+
+    .text1 {
+        font-weight: 100;
+        font-size: 1.2rem;
+        white-space: nowrap;
+    }
+
+    .text2 {
+        font-weight: 900;
+        font-size: 1.4rem;
+        color: #f1baba;
+    }
+</style>
+</html>
